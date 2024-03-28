@@ -1,0 +1,1 @@
+Simple analog clock widget. It is resizable and has a clean dial. It uses the built-in AnalogClock widget of Android with a custom dial.

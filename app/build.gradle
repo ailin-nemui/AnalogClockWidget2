@@ -1,0 +1,33 @@
+plugins {
+    alias(libs.plugins.androidApplication)
+}
+
+android {
+    namespace 'eu.nemui.ailin.uclock'
+    compileSdk 23
+
+    defaultConfig {
+        applicationId "eu.nemui.ailin.uclock"
+        minSdk 23
+        targetSdk 34
+        versionCode 2
+        versionName '1.02'
+
+        versionNameSuffix 'j'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+

@@ -1,0 +1,1 @@
+Einfaches Widget mit einer analogen Uhr. Es kann in der Größe angepasst werden und die Uhr hat ein schnörkelloses Ziffernblatt. Zur Darstellung wird das in Android eingebaute AnalogClock Widget mit einem eigenen Ziffernblatt-Hintergrund eingesetzt.

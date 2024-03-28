@@ -1,0 +1,2 @@
+- add dark clock
+- fix tap to open alarm settings
